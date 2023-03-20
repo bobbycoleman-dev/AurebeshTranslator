@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC04F98829C8D3ED002696CA /* NumberKeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04F98729C8D3ED002696CA /* NumberKeyBoardView.swift */; };
+		CC04F98C29C8EF0A002696CA /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04F98B29C8EF0A002696CA /* HapticManager.swift */; };
+		CC04F98E29C8F20D002696CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC04F98D29C8F20D002696CA /* LaunchScreen.storyboard */; };
+		CC28BBAD29C53CF600BEE350 /* AurebeshLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28BBAC29C53CF600BEE350 /* AurebeshLetters.swift */; };
+		CC28BBAF29C5470A00BEE350 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28BBAE29C5470A00BEE350 /* TabView.swift */; };
+		CC28BBB129C5486E00BEE350 /* LetterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28BBB029C5486E00BEE350 /* LetterListView.swift */; };
+		CC57164D29C8909200620C5A /* WrappingHStack in Frameworks */ = {isa = PBXBuildFile; productRef = CC57164C29C8909200620C5A /* WrappingHStack */; };
+		CC57164F29C8960B00620C5A /* LetterKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC57164E29C8960B00620C5A /* LetterKeyboardView.swift */; };
+		CC57165129C896F000620C5A /* SpaceAndClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC57165029C896F000620C5A /* SpaceAndClearView.swift */; };
+		CC8F4B7129C537E500C4EFDE /* Aurebesh_TranslatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F4B7029C537E500C4EFDE /* Aurebesh_TranslatorApp.swift */; };
+		CC8F4B7329C537E500C4EFDE /* TranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F4B7229C537E500C4EFDE /* TranslatorView.swift */; };
+		CC8F4B7529C537E800C4EFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8F4B7429C537E800C4EFDE /* Assets.xcassets */; };
+		CC8F4B7829C537E800C4EFDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8F4B7729C537E800C4EFDE /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC04F98729C8D3ED002696CA /* NumberKeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberKeyBoardView.swift; sourceTree = "<group>"; };
+		CC04F98B29C8EF0A002696CA /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		CC04F98D29C8F20D002696CA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC04F98F29C8F4A9002696CA /* Aurebesh-Translator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Aurebesh-Translator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CC28BBAC29C53CF600BEE350 /* AurebeshLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AurebeshLetters.swift; sourceTree = "<group>"; };
+		CC28BBAE29C5470A00BEE350 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		CC28BBB029C5486E00BEE350 /* LetterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListView.swift; sourceTree = "<group>"; };
+		CC57164E29C8960B00620C5A /* LetterKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterKeyboardView.swift; sourceTree = "<group>"; };
+		CC57165029C896F000620C5A /* SpaceAndClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceAndClearView.swift; sourceTree = "<group>"; };
+		CC8F4B6D29C537E500C4EFDE /* Aurebesh Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aurebesh Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8F4B7029C537E500C4EFDE /* Aurebesh_TranslatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aurebesh_TranslatorApp.swift; sourceTree = "<group>"; };
+		CC8F4B7229C537E500C4EFDE /* TranslatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorView.swift; sourceTree = "<group>"; };
+		CC8F4B7429C537E800C4EFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC8F4B7729C537E800C4EFDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC8F4B6A29C537E500C4EFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC57164D29C8909200620C5A /* WrappingHStack in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC04F99029C8F6D4002696CA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CC8F4B7229C537E500C4EFDE /* TranslatorView.swift */,
+				CC28BBB029C5486E00BEE350 /* LetterListView.swift */,
+				CC28BBAE29C5470A00BEE350 /* TabView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CC04F99129C8F6E9002696CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC57164E29C8960B00620C5A /* LetterKeyboardView.swift */,
+				CC57165029C896F000620C5A /* SpaceAndClearView.swift */,
+				CC04F98729C8D3ED002696CA /* NumberKeyBoardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC04F99229C8F705002696CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC28BBAC29C53CF600BEE350 /* AurebeshLetters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC04F99329C8F70D002696CA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CC04F98B29C8EF0A002696CA /* HapticManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CC04F99429C8F71D002696CA /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CC04F98D29C8F20D002696CA /* LaunchScreen.storyboard */,
+				CC8F4B7029C537E500C4EFDE /* Aurebesh_TranslatorApp.swift */,
+				CC8F4B7429C537E800C4EFDE /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CC8F4B6429C537E500C4EFDE = {
+			isa = PBXGroup;
+			children = (
+				CC8F4B6F29C537E500C4EFDE /* Aurebesh Translator */,
+				CC04F98F29C8F4A9002696CA /* Aurebesh-Translator-Info.plist */,
+				CC8F4B6E29C537E500C4EFDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC8F4B6E29C537E500C4EFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC8F4B6D29C537E500C4EFDE /* Aurebesh Translator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC8F4B6F29C537E500C4EFDE /* Aurebesh Translator */ = {
+			isa = PBXGroup;
+			children = (
+				CC04F99329C8F70D002696CA /* Managers */,
+				CC04F99229C8F705002696CA /* Models */,
+				CC04F99129C8F6E9002696CA /* Views */,
+				CC04F99029C8F6D4002696CA /* Screens */,
+				CC04F99429C8F71D002696CA /* Support */,
+				CC8F4B7629C537E800C4EFDE /* Preview Content */,
+			);
+			path = "Aurebesh Translator";
+			sourceTree = "<group>";
+		};
+		CC8F4B7629C537E800C4EFDE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC8F4B7729C537E800C4EFDE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC8F4B6C29C537E500C4EFDE /* Aurebesh Translator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8F4B7B29C537E800C4EFDE /* Build configuration list for PBXNativeTarget "Aurebesh Translator" */;
+			buildPhases = (
+				CC8F4B6929C537E500C4EFDE /* Sources */,
+				CC8F4B6A29C537E500C4EFDE /* Frameworks */,
+				CC8F4B6B29C537E500C4EFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aurebesh Translator";
+			packageProductDependencies = (
+				CC57164C29C8909200620C5A /* WrappingHStack */,
+			);
+			productName = "Aurebesh Translator";
+			productReference = CC8F4B6D29C537E500C4EFDE /* Aurebesh Translator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC8F4B6529C537E500C4EFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CC8F4B6C29C537E500C4EFDE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CC8F4B6829C537E500C4EFDE /* Build configuration list for PBXProject "Aurebesh Translator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC8F4B6429C537E500C4EFDE;
+			packageReferences = (
+				CC57164B29C8909200620C5A /* XCRemoteSwiftPackageReference "WrappingHStack" */,
+			);
+			productRefGroup = CC8F4B6E29C537E500C4EFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC8F4B6C29C537E500C4EFDE /* Aurebesh Translator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC8F4B6B29C537E500C4EFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC04F98E29C8F20D002696CA /* LaunchScreen.storyboard in Resources */,
+				CC8F4B7829C537E800C4EFDE /* Preview Assets.xcassets in Resources */,
+				CC8F4B7529C537E800C4EFDE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC8F4B6929C537E500C4EFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC04F98829C8D3ED002696CA /* NumberKeyBoardView.swift in Sources */,
+				CC28BBAD29C53CF600BEE350 /* AurebeshLetters.swift in Sources */,
+				CC57164F29C8960B00620C5A /* LetterKeyboardView.swift in Sources */,
+				CC8F4B7329C537E500C4EFDE /* TranslatorView.swift in Sources */,
+				CC57165129C896F000620C5A /* SpaceAndClearView.swift in Sources */,
+				CC04F98C29C8EF0A002696CA /* HapticManager.swift in Sources */,
+				CC28BBB129C5486E00BEE350 /* LetterListView.swift in Sources */,
+				CC28BBAF29C5470A00BEE350 /* TabView.swift in Sources */,
+				CC8F4B7129C537E500C4EFDE /* Aurebesh_TranslatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC8F4B7929C537E800C4EFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC8F4B7A29C537E800C4EFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC8F4B7C29C537E800C4EFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aurebesh Translator/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZQV4NQY6A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aurebesh-Translator-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobbycoleman.Aurebesh-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC8F4B7D29C537E800C4EFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aurebesh Translator/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZQV4NQY6A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aurebesh-Translator-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobbycoleman.Aurebesh-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC8F4B6829C537E500C4EFDE /* Build configuration list for PBXProject "Aurebesh Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8F4B7929C537E800C4EFDE /* Debug */,
+				CC8F4B7A29C537E800C4EFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8F4B7B29C537E800C4EFDE /* Build configuration list for PBXNativeTarget "Aurebesh Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8F4B7C29C537E800C4EFDE /* Debug */,
+				CC8F4B7D29C537E800C4EFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC57164B29C8909200620C5A /* XCRemoteSwiftPackageReference "WrappingHStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dkk/WrappingHStack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC57164C29C8909200620C5A /* WrappingHStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC57164B29C8909200620C5A /* XCRemoteSwiftPackageReference "WrappingHStack" */;
+			productName = WrappingHStack;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CC8F4B6529C537E500C4EFDE /* Project object */;
+}
